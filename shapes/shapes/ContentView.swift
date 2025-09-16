@@ -53,6 +53,23 @@ struct ContentView: View {
                
                 
             }
+            ZStack{
+                Circle()
+                    .foregroundStyle(Color.blue)
+                    .frame(width: 60, height: 60)
+                    .overlay {
+                    Circle().stroke(lineWidth: 2)
+                    }
+                Circle()
+                    .foregroundStyle(Color.orange)
+                    .frame(width: 60, height: 60)
+                    .overlay {
+                    Circle().stroke(lineWidth: 2)
+                    }
+                    .offset(x:40, y: 0)
+                Text("Mastercard").foregroundStyle(Color.white)
+                    .offset(x:25, y:40)
+            }
             
         }
         .padding()

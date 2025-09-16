@@ -37,7 +37,7 @@ struct ContentView: View {
                                         .frame(width: 20, height:20)
                                 }.offset(x:-100, y: -30)
                                 HStack{
-                                    Text(esconder ?"*****":"2234 5678 9016678").foregroundColor(.white).font(.system(size: 15,weight: .light))
+                                    Text(esconder ? "*****":"2234 5678 9016678").foregroundColor(.white).font(.system(size: 15,weight: .light))
                                 }.offset(x:-100, y: -20)
                                 HStack{
                                     Text("Teresa Lisette Rico Soto").foregroundColor(.white).font(.system(size: 12,weight: .light))
