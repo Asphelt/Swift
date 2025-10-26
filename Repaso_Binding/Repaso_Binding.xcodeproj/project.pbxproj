@@ -1,0 +1,555 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXContainerItemProxy section */
+		A2A392D62EA7044A005E4CC6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A2A392C02EA70449005E4CC6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A2A392C72EA70449005E4CC6;
+			remoteInfo = Repaso_Binding;
+		};
+		A2A392E02EA7044A005E4CC6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A2A392C02EA70449005E4CC6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A2A392C72EA70449005E4CC6;
+			remoteInfo = Repaso_Binding;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		A2A392C82EA70449005E4CC6 /* Repaso_Binding.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Repaso_Binding.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A2A392D52EA7044A005E4CC6 /* Repaso_BindingTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Repaso_BindingTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A2A392DF2EA7044A005E4CC6 /* Repaso_BindingUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Repaso_BindingUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		A2A392CA2EA70449005E4CC6 /* Repaso_Binding */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = Repaso_Binding;
+			sourceTree = "<group>";
+		};
+		A2A392D82EA7044A005E4CC6 /* Repaso_BindingTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = Repaso_BindingTests;
+			sourceTree = "<group>";
+		};
+		A2A392E22EA7044A005E4CC6 /* Repaso_BindingUITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = Repaso_BindingUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A2A392C52EA70449005E4CC6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A2A392D22EA7044A005E4CC6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A2A392DC2EA7044A005E4CC6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A2A392BF2EA70449005E4CC6 = {
+			isa = PBXGroup;
+			children = (
+				A2A392CA2EA70449005E4CC6 /* Repaso_Binding */,
+				A2A392D82EA7044A005E4CC6 /* Repaso_BindingTests */,
+				A2A392E22EA7044A005E4CC6 /* Repaso_BindingUITests */,
+				A2A392C92EA70449005E4CC6 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A2A392C92EA70449005E4CC6 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A2A392C82EA70449005E4CC6 /* Repaso_Binding.app */,
+				A2A392D52EA7044A005E4CC6 /* Repaso_BindingTests.xctest */,
+				A2A392DF2EA7044A005E4CC6 /* Repaso_BindingUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A2A392C72EA70449005E4CC6 /* Repaso_Binding */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A2A392E92EA7044A005E4CC6 /* Build configuration list for PBXNativeTarget "Repaso_Binding" */;
+			buildPhases = (
+				A2A392C42EA70449005E4CC6 /* Sources */,
+				A2A392C52EA70449005E4CC6 /* Frameworks */,
+				A2A392C62EA70449005E4CC6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				A2A392CA2EA70449005E4CC6 /* Repaso_Binding */,
+			);
+			name = Repaso_Binding;
+			packageProductDependencies = (
+			);
+			productName = Repaso_Binding;
+			productReference = A2A392C82EA70449005E4CC6 /* Repaso_Binding.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A2A392D42EA7044A005E4CC6 /* Repaso_BindingTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A2A392EC2EA7044A005E4CC6 /* Build configuration list for PBXNativeTarget "Repaso_BindingTests" */;
+			buildPhases = (
+				A2A392D12EA7044A005E4CC6 /* Sources */,
+				A2A392D22EA7044A005E4CC6 /* Frameworks */,
+				A2A392D32EA7044A005E4CC6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A2A392D72EA7044A005E4CC6 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				A2A392D82EA7044A005E4CC6 /* Repaso_BindingTests */,
+			);
+			name = Repaso_BindingTests;
+			packageProductDependencies = (
+			);
+			productName = Repaso_BindingTests;
+			productReference = A2A392D52EA7044A005E4CC6 /* Repaso_BindingTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		A2A392DE2EA7044A005E4CC6 /* Repaso_BindingUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A2A392EF2EA7044A005E4CC6 /* Build configuration list for PBXNativeTarget "Repaso_BindingUITests" */;
+			buildPhases = (
+				A2A392DB2EA7044A005E4CC6 /* Sources */,
+				A2A392DC2EA7044A005E4CC6 /* Frameworks */,
+				A2A392DD2EA7044A005E4CC6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A2A392E12EA7044A005E4CC6 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				A2A392E22EA7044A005E4CC6 /* Repaso_BindingUITests */,
+			);
+			name = Repaso_BindingUITests;
+			packageProductDependencies = (
+			);
+			productName = Repaso_BindingUITests;
+			productReference = A2A392DF2EA7044A005E4CC6 /* Repaso_BindingUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A2A392C02EA70449005E4CC6 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1640;
+				LastUpgradeCheck = 1640;
+				TargetAttributes = {
+					A2A392C72EA70449005E4CC6 = {
+						CreatedOnToolsVersion = 16.4;
+					};
+					A2A392D42EA7044A005E4CC6 = {
+						CreatedOnToolsVersion = 16.4;
+						TestTargetID = A2A392C72EA70449005E4CC6;
+					};
+					A2A392DE2EA7044A005E4CC6 = {
+						CreatedOnToolsVersion = 16.4;
+						TestTargetID = A2A392C72EA70449005E4CC6;
+					};
+				};
+			};
+			buildConfigurationList = A2A392C32EA70449005E4CC6 /* Build configuration list for PBXProject "Repaso_Binding" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A2A392BF2EA70449005E4CC6;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = A2A392C92EA70449005E4CC6 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A2A392C72EA70449005E4CC6 /* Repaso_Binding */,
+				A2A392D42EA7044A005E4CC6 /* Repaso_BindingTests */,
+				A2A392DE2EA7044A005E4CC6 /* Repaso_BindingUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A2A392C62EA70449005E4CC6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A2A392D32EA7044A005E4CC6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A2A392DD2EA7044A005E4CC6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A2A392C42EA70449005E4CC6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A2A392D12EA7044A005E4CC6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A2A392DB2EA7044A005E4CC6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A2A392D72EA7044A005E4CC6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A2A392C72EA70449005E4CC6 /* Repaso_Binding */;
+			targetProxy = A2A392D62EA7044A005E4CC6 /* PBXContainerItemProxy */;
+		};
+		A2A392E12EA7044A005E4CC6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A2A392C72EA70449005E4CC6 /* Repaso_Binding */;
+			targetProxy = A2A392E02EA7044A005E4CC6 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		A2A392E72EA7044A005E4CC6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		A2A392E82EA7044A005E4CC6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A2A392EA2EA7044A005E4CC6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "iest.Repaso-Binding";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A2A392EB2EA7044A005E4CC6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "iest.Repaso-Binding";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		A2A392ED2EA7044A005E4CC6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "iest.Repaso-BindingTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Repaso_Binding.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Repaso_Binding";
+			};
+			name = Debug;
+		};
+		A2A392EE2EA7044A005E4CC6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "iest.Repaso-BindingTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Repaso_Binding.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Repaso_Binding";
+			};
+			name = Release;
+		};
+		A2A392F02EA7044A005E4CC6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "iest.Repaso-BindingUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Repaso_Binding;
+			};
+			name = Debug;
+		};
+		A2A392F12EA7044A005E4CC6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "iest.Repaso-BindingUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Repaso_Binding;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A2A392C32EA70449005E4CC6 /* Build configuration list for PBXProject "Repaso_Binding" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A2A392E72EA7044A005E4CC6 /* Debug */,
+				A2A392E82EA7044A005E4CC6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A2A392E92EA7044A005E4CC6 /* Build configuration list for PBXNativeTarget "Repaso_Binding" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A2A392EA2EA7044A005E4CC6 /* Debug */,
+				A2A392EB2EA7044A005E4CC6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A2A392EC2EA7044A005E4CC6 /* Build configuration list for PBXNativeTarget "Repaso_BindingTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A2A392ED2EA7044A005E4CC6 /* Debug */,
+				A2A392EE2EA7044A005E4CC6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A2A392EF2EA7044A005E4CC6 /* Build configuration list for PBXNativeTarget "Repaso_BindingUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A2A392F02EA7044A005E4CC6 /* Debug */,
+				A2A392F12EA7044A005E4CC6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A2A392C02EA70449005E4CC6 /* Project object */;
+}
