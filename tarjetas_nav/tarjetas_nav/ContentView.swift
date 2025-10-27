@@ -10,12 +10,22 @@ import SwiftUI
 struct ContentView: View {
     var body: some View {
         VStack {
-            Image(systemName: "globe")
-                .imageScale(.large)
-                .foregroundStyle(.tint)
-            Text("Hello, world!")
-        }
-        .padding()
+            NavigationStack{
+                NavigationLink(destination: OperacionesCardView()){
+                    TarjetaView(nombre: "BBVA", numero: "123456789", cliente: "Zurisabdai")
+                }
+                NavigationLink(destination: OperacionesCardView()){
+                    TarjetaView(nombre: "BBVA", numero: "123456789", cliente: "Zurisabdai")
+                }
+                NavigationLink(destination: OperacionesCardView()){
+                    TarjetaView(nombre: "BBVA", numero: "123456789", cliente: "Zurisabdai")
+                }
+                NavigationLink(destination: OperacionesCardView()){
+                    TarjetaView(nombre: "BBVA", numero: "123456789", cliente: "Zurisabdai")
+                }
+            }
+        }.frame(maxWidth: .infinity, maxHeight: .infinity)
+        .background(Color.black)
     }
 }
 
